@@ -10,29 +10,29 @@ let Slide = function(imageUrl, title, description) {
 /// -------------------------------------------------------------- SLIDES
 
 const slides = [
-    new Slide('http://via.placeholder.com/350x150', 'title1', 'description1'),
-    new Slide('http://via.placeholder.com/350x250', 'title2', 'description2'),
-    new Slide('http://via.placeholder.com/450x150', 'title3', 'description3'),
-    new Slide('http://via.placeholder.com/350x150', 'title4', 'description4'),
-    new Slide('http://via.placeholder.com/350x250', 'title5', 'description5'),
-    new Slide('http://via.placeholder.com/450x150', 'title6', 'description6'),
-    new Slide('http://via.placeholder.com/350x150', 'title7', 'description7'),
-    new Slide('http://via.placeholder.com/350x250', 'title8', 'description8'),
-    new Slide('http://via.placeholder.com/450x150', 'title9', 'description9')
+    new Slide('http://via.placeholder.com/350x150', 'title1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at diam eu velit egestas pretium id at diam. In non nibh vitae est fringilla dapibus ac id libero. Aliquam erat volutpat. Nulla pretium, lectus at maximus pellentesque, odio nisi scelerisque arcu, a accumsan est arcu non ipsum. Nulla nibh erat, porta non nisl a, imperdiet lacinia sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed ac enim lectus. Morbi vel lobortis ligula. Nullam lacinia massa rutrum, imperdiet erat id, placerat felis. Nullam in ipsum eget nibh pharetra feugiat. Etiam quis ante volutpat, aliquam elit ut, molestie libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.'),
+    new Slide('http://via.placeholder.com/350x250', 'title2', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at diam eu velit egestas pretium id at diam. In non nibh vitae est fringilla dapibus ac id libero. Aliquam erat volutpat. Nulla pretium, lectus at maximus pellentesque, odio nisi scelerisque arcu, a accumsan est arcu non ipsum. Nulla nibh erat, porta non nisl a, imperdiet lacinia sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed ac enim lectus. Morbi vel lobortis ligula. Nullam lacinia massa rutrum, imperdiet erat id, placerat felis. Nullam in ipsum eget nibh pharetra feugiat. Etiam quis ante volutpat, aliquam elit ut, molestie libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.'),
+    new Slide('http://via.placeholder.com/450x150', 'title3', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at diam eu velit egestas pretium id at diam. In non nibh vitae est fringilla dapibus ac id libero. Aliquam erat volutpat. Nulla pretium, lectus at maximus pellentesque, odio nisi scelerisque arcu, a accumsan est arcu non ipsum. Nulla nibh erat, porta non nisl a, imperdiet lacinia sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed ac enim lectus. Morbi vel lobortis ligula. Nullam lacinia massa rutrum, imperdiet erat id, placerat felis. Nullam in ipsum eget nibh pharetra feugiat. Etiam quis ante volutpat, aliquam elit ut, molestie libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.'),
+    new Slide('http://via.placeholder.com/350x150', 'title4', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at diam eu velit egestas pretium id at diam. In non nibh vitae est fringilla dapibus ac id libero. Aliquam erat volutpat. Nulla pretium, lectus at maximus pellentesque, odio nisi scelerisque arcu, a accumsan est arcu non ipsum. Nulla nibh erat, porta non nisl a, imperdiet lacinia sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed ac enim lectus. Morbi vel lobortis ligula. Nullam lacinia massa rutrum, imperdiet erat id, placerat felis. Nullam in ipsum eget nibh pharetra feugiat. Etiam quis ante volutpat, aliquam elit ut, molestie libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.'),
+    new Slide('http://via.placeholder.com/350x250', 'title5', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at diam eu velit egestas pretium id at diam. In non nibh vitae est fringilla dapibus ac id libero. Aliquam erat volutpat. Nulla pretium, lectus at maximus pellentesque, odio nisi scelerisque arcu, a accumsan est arcu non ipsum. Nulla nibh erat, porta non nisl a, imperdiet lacinia sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed ac enim lectus. Morbi vel lobortis ligula. Nullam lacinia massa rutrum, imperdiet erat id, placerat felis. Nullam in ipsum eget nibh pharetra feugiat. Etiam quis ante volutpat, aliquam elit ut, molestie libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.'),
+    new Slide('http://via.placeholder.com/450x150', 'title6', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at diam eu velit egestas pretium id at diam. In non nibh vitae est fringilla dapibus ac id libero. Aliquam erat volutpat. Nulla pretium, lectus at maximus pellentesque, odio nisi scelerisque arcu, a accumsan est arcu non ipsum. Nulla nibh erat, porta non nisl a, imperdiet lacinia sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed ac enim lectus. Morbi vel lobortis ligula. Nullam lacinia massa rutrum, imperdiet erat id, placerat felis. Nullam in ipsum eget nibh pharetra feugiat. Etiam quis ante volutpat, aliquam elit ut, molestie libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.'),
+    new Slide('http://via.placeholder.com/350x150', 'title7', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at diam eu velit egestas pretium id at diam. In non nibh vitae est fringilla dapibus ac id libero. Aliquam erat volutpat. Nulla pretium, lectus at maximus pellentesque, odio nisi scelerisque arcu, a accumsan est arcu non ipsum. Nulla nibh erat, porta non nisl a, imperdiet lacinia sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed ac enim lectus. Morbi vel lobortis ligula. Nullam lacinia massa rutrum, imperdiet erat id, placerat felis. Nullam in ipsum eget nibh pharetra feugiat. Etiam quis ante volutpat, aliquam elit ut, molestie libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.'),
+    new Slide('http://via.placeholder.com/350x250', 'title8', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at diam eu velit egestas pretium id at diam. In non nibh vitae est fringilla dapibus ac id libero. Aliquam erat volutpat. Nulla pretium, lectus at maximus pellentesque, odio nisi scelerisque arcu, a accumsan est arcu non ipsum. Nulla nibh erat, porta non nisl a, imperdiet lacinia sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed ac enim lectus. Morbi vel lobortis ligula. Nullam lacinia massa rutrum, imperdiet erat id, placerat felis. Nullam in ipsum eget nibh pharetra feugiat. Etiam quis ante volutpat, aliquam elit ut, molestie libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.'),
+    new Slide('http://via.placeholder.com/450x150', 'title9', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at diam eu velit egestas pretium id at diam. In non nibh vitae est fringilla dapibus ac id libero. Aliquam erat volutpat. Nulla pretium, lectus at maximus pellentesque, odio nisi scelerisque arcu, a accumsan est arcu non ipsum. Nulla nibh erat, porta non nisl a, imperdiet lacinia sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed ac enim lectus. Morbi vel lobortis ligula. Nullam lacinia massa rutrum, imperdiet erat id, placerat felis. Nullam in ipsum eget nibh pharetra feugiat. Etiam quis ante volutpat, aliquam elit ut, molestie libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.')
 ];
 
 /// -------------------------------------------------------------- DOMSTRINGS
 
 const DOMArray = (function() {
     const DOMstrings = {
-        slideContainer   : 'slides-container',
-        slideNav         : 'slide-nav',
-        slideBtnPrev     : 'slide-btn-prev',
-        slideBtnNext     : 'slide-btn-next',
-        slideContent     : '.slide-content',
-        activeSlideClass : 'slide-content--active',
-        activeItemClass  : 'slide-navigation-item--active',
-        navigationLinks  : '.slide-navigation-item a'
+        slideContainer   : 'jslide-slides',
+        slideNav         : 'jslide-navigation',
+        slideBtnPrev     : 'jslide-btn-prev',
+        slideBtnNext     : 'jslide-btn-next',
+        slideContent     : '.jslide-slides__slide',
+        activeSlideClass : 'jslide-slides__slide--active',
+        activeItemClass  : 'jslide-navigation__item--active',
+        navigationLinks  : '.jslide-navigation__item a'
     }
 
     return {
@@ -150,15 +150,15 @@ const UIController = (function() {
     /// ----------------- TEMPLATES
 
     const navigationTemplate = function(title, id) {
-        return `<li class='slide-navigation-item'>
-                    <a id='${id}'>
+        return `<li class='jslide-navigation__item'>
+                    <a id='${id}' href="#" >
                         ${title}
                     </a>
                 </li>`; 
     }
 
     const slideTemplate = function(imageUrl, title, description, id) {
-        return `<div class="slide-content" data-id='${id}'>
+        return `<div class="jslide-slides__slide" data-id='${id}'>
                     <img src="${imageUrl}" />
                     <h1>${title}</h1>
                     <p>${description}</p>

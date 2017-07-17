@@ -4,16 +4,40 @@
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
-        <div class="slide">
-
-            <div class="slide__navigation">
-                <ul id="slide-nav"></ul>
+        <div class="jslide">
+            <div class="jslide__navigation-holder">
+                <div class="jslide__navigation-holder__header">
+                    <p>...</p>
+                </div>
+                <ul id="jslide-navigation" class="jslide-navigation"><!-- PLACEHOLDER --></ul>
             </div>
 
-            <div class="slide__content">
-                <div class="slide-btn slide-btn--left" id="slide-btn-prev">Prev</div>
-                <div id="slides-container"></div>
-                <div class="slide-btn slide-btn--right" id="slide-btn-next">Next</div>
+            <div class="jslide__content">
+                <div class="jslide__content__header">
+                    <p>...</p>
+                </div>
+
+                <div class="jslide-btn jslide-btn--prev" id="jslide-btn-prev">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                    >
+                        <path d="M12 22C6.486 22 2 17.515 2 12 2 6.486 6.486 2 12 2c5.515 0 10 4.486 10 10 0 5.515-4.485 10-10 10zm0 2c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12zm-2-12l4.5-4.5L12.974 6 7 12l5.974 6 1.526-1.5L10 12z"/>
+                    </svg>                    
+                </div>
+                <div id="jslide-slides" class="jslide-slides"><!-- PLACEHOLDER --></div>
+                <div class="jslide-btn jslide-btn--next" id="jslide-btn-next">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                    >
+                        <path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10S2 17.514 2 12 6.486 2 12 2zm0-2C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm2 12l-4.5 4.5 1.527 1.5L17 12l-5.973-6L9.5 7.5 14 12z"/>
+                    </svg>
+                </div>
             </div>
         </div>
         <script src="js/script.js"></script>

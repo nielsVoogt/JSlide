@@ -61,4 +61,3 @@ gulp.task('sass', function () {
     .pipe(autoprefixer(autoprefixerOptions))
     .pipe(gulp.dest('./example/css/'));
 });
-
